@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Enterprise Car Rentals</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="header-img">
+            <img src="enterprise.png" width="250px" height="50px">
+        </div>
+
+    </div>
+    <div class="nav-links">
+        <ul class="nav-items">
+            <li>Rent a Car</li>
+            <li>Discounts</li>
+            <li>Locations</li>
+            <li>Vehicles</li>
+            <li>Car Sales</li>
+            <li>Business Rentals</li>
+            <li>Blog</li>
+        </ul>
+
+    </div>
+
+    <div class="wrapper">
+        <div class="mainpage1">
+            <div class="reservation">
+                <h2>Start a reservation</h2>
+                <div>
+                    <p>LOCATION</p>
+                    <input class="location-text" type="text" placeholder="Enter your location(ZIP, City or Airport)">
+                </div>
+            </div>
+
+            <div class="reserved-dates">
+
+                <div class="pickup">
+                    <span>Pickup Date</span>
+                    <input class="pickup-date datepick" placeholder="mm/dd/yyyy">
+                </div>
+
+                <div class="return">
+                    <span>Return Date</span>
+                    <input class="return-date datepick" placeholder="mm/dd/yyyy">
+                </div>
+
+                <div class="age">
+                    <label for="age">Renter Age</label>
+                    <select id="age">
+              <option value="25">25+</option>
+              <option value="24">24</option>
+              <option value="23">23</option>
+              <option value="22">22</option>
+              <option value="21">21</option>
+              <option value="20">20</option>
+              </select>
+                </div>
+            </div>
+
+            <div class="continue-btn">
+                <button class="continue">Book as a Guest</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <script src="scripts/index.js"></script>
+
+</body>
+
+</html>
